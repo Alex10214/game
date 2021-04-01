@@ -1,0 +1,17 @@
+<div class="screen-component">
+  <div class="game-field">
+    <div *ngFor="let row of serviceGame.map; let x = index" class="game-field-row">
+      <div *ngFor="let cell of row; let y = index"
+           class="game-field-square"
+           [class.game-field__cell--red]="cell === STATUS_ONE_SQUARE.PC"
+           [class.game-field__cell--green]="cell === STATUS_ONE_SQUARE.USER"></div>
+    </div>
+  </div>
+
+  <div class="container-for-start-game">
+    <label>
+      <input type="number" class="time-round" placeholder="Time round">
+    </label>
+    <button class="start">START</button>
+  </div>
+</div>

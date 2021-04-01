@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="262de59e-44b4-45fd-ace0-4bd30e12e9ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/game/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qW2DI2UiKBS0iFoJY811QSIOvC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../game" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="C:\Users\38093\Desktop\justGame\game\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\38093\Desktop\justGame\game\src\app\service" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="262de59e-44b4-45fd-ace0-4bd30e12e9ed" name="Default Changelist" comment="" />
+      <created>1617180903701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617180903701</updated>
+      <workItem from="1617180904976" duration="3210000" />
+      <workItem from="1617184146596" duration="1507000" />
+      <workItem from="1617185984255" duration="1630000" />
+      <workItem from="1617195770638" duration="46000" />
+      <workItem from="1617195923332" duration="1056000" />
+      <workItem from="1617260098929" duration="1988000" />
+      <workItem from="1617262107610" duration="1792000" />
+      <workItem from="1617263915370" duration="723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="458" key="FileChooserDialogImpl" timestamp="1617263972085">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="640" y="458" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1617263972085" />
+    <state x="369" y="345" key="SettingsEditor" timestamp="1617186687043">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="369" y="345" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1617186687043" />
+    <state x="464" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617261718362">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="464" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1617261718362" />
+    <state x="516" y="334" key="run.anything.popup" timestamp="1617264637410">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="516" y="334" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1617264637410" />
+  </component>
+</project>
