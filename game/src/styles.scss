@@ -23,15 +23,27 @@ body {
     width: 50px;
     height: 50px;
     background-color: blue;
+
+    &--yellow {
+      background-color: yellow;
+    }
+
+    &--red {
+      background-color: darkred;
+    }
+
+    &--green {
+      background-color: chartreuse;
+    }
   }
 }
 .container-for-start-game {
-  margin-top: 5px;
   width: 400px;
   height: 60px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 5px auto;
 
   .time-round {
     height: 20px;
@@ -47,5 +59,56 @@ body {
     height: 40px;
     border-radius: 5px;
     outline: none;
+  }
+}
+
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: white;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  .winner {
+    font-weight: bolder;
+    font-size: 28px;
+  }
+
+  .score {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .score-res {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    width: 70px;
+    height: 30px;
+    margin: 15px;
   }
 }

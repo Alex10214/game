@@ -1,1 +1,9 @@
-<p>popup-result works!</p>
+<div class="popup">
+  <div class="result">
+    <p class="winner">
+      winner: {{serviceGame.Score.winner === STATUS_ONE_SQUARE.USER ? 'USER' : 'PC'}}
+    </p>
+    <app-score></app-score>
+    <button (click)="close.emit()">Close</button>
+  </div>
+</div>

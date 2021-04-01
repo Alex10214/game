@@ -1,17 +1,22 @@
 <div class="screen-component">
-  <div class="game-field">
-    <div *ngFor="let row of serviceGame.map; let x = index" class="game-field-row">
-      <div *ngFor="let cell of row; let y = index"
-           class="game-field-square"
-           [class.game-field__cell--red]="cell === STATUS_ONE_SQUARE.PC"
-           [class.game-field__cell--green]="cell === STATUS_ONE_SQUARE.USER"></div>
+<div class="game-field">
+  <div *ngFor="let row of serviceGame.map; let x = index" class="game-field-row">
+    <div *ngFor="let cell of row; let y = index"
+    (click)="serviceGame.action(x, y, STATUS_ONE_SQUARE.USER)"
+    class="game-field-square"
+    [class.game-field-square--red]="cell === STATUS_ONE_SQUARE.PC"
+    [class.game-field-square--green]="cell === STATUS_ONE_SQUARE.USER"
+    [class.game-field-square--yellow]="serviceGame.randomPosition && serviceGame.randomPosition.x === x && serviceGame.randomPosition.y === y">
     </div>
   </div>
+</div>
+</div>
 
   <div class="container-for-start-game">
     <label>
-      <input type="number" class="time-round" placeholder="Time round">
+      <input type="number" class="time-round" placeholder="Time round" [(ngModel)]="timeRoundInput">
     </label>
-    <button class="start">START</button>
+    <button class="start" (click)="start()">START</button>
   </div>
-</div>
+
+<app-popup-result *ngIf="isShowPopup" (close)="closePopup()"></app-popup-result>
